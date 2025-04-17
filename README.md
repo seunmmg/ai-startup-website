@@ -53,3 +53,35 @@ git commit -m "Add contact information" - saves jerrys changes in the branch his
 git push origin add-contact-info - This uploads jerry's branch to github
 
 
+# Merging Changes
+
+## Switch to branch
+
+On github, switch to the branch Tom has been working on which is update-navigation.
+
+![](./img/10.%20Tom%20branch.png)
+
+## Create a new pull request
+
+Click "This branch is 2 commits behind" to initiate a pull request. 
+
+![](./img/11.Create%20pull%20request%201.png)
+
+This will take you to a new page which will allow you to create a pull request. 
+
+![](./img/12.%20Create%20pull%20request%202.png)
+
+After reviewing Tom's work and everything looks good, click create pull request again. Create a title and description.
+
+![](./img/13.%20create%20pull%20request%204.png)
+
+## Steps to update Jerry's branch
+open terminal, run git checkout add-contact-info to switch to jerry's branch then git pull origin main to pull latest changes from main branch.
+
+![](./img/14.git%20check%20and%20pull.png)
+
+## Finalizing Jerry's work
+
+Git push origin add-contact-info to push the changes to github 
+
+![](./img/15.%20git%20push.png)
