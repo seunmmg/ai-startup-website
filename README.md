@@ -85,3 +85,14 @@ open terminal, run git checkout add-contact-info to switch to jerry's branch the
 Git push origin add-contact-info to push the changes to github 
 
 ![](./img/15.%20git%20push.png)
+
+## conflict resolution 
+conflict encountered and resolved.
+
+![](./img/16.conflict%20encountered.png)
+
+![](./img/17.conflict%20resloved.png)
+
+## Successful Merge of PRs
+
+![](./img/18.successful%20merge%20of%20prs.png)
